@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>英雄联盟玩家创作馆-英雄联盟官方网站-腾讯游戏</title>
+    <meta name ="keywords" content="自由创作，发挥想象">
+    <meta name="description" content="玩家的自创作乐园">
+    <link rel="icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/waterfall.js"></script>
+    <script src="lib/js/jquery-1.12.4.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/aside.js"></script>
+</head>
+<body>
+    <!-- 标题导航栏 -->
+    <div class="common_top">
+        <a class="common_top_left" href="#">英雄联盟</a>
+        <a class="common_top_right" href="#">英雄联盟-职业竞赛</a>
+        <ul class=fr>
+            <li class="fl"> <a href="#">游戏下载</a></li>
+            <li class="fl"> <a href="#">微信绑定</a></li>
+            <li class="fl"> <a href="#">点券充值</a></li>
+            <li class="fl"> <a href="#">返回官网首页</a>
+            </li>
+        </ul>
+    </div>
+    <!-- 标题导航结束 -->
+    <!-- 导航栏 -->
+    <div class="title">
+        <div class="title_logo fl">
+            <a href=""><img src="images/sprite-img.png" alt=""></a>
+        </div>
+        <ul class="title_left fl">
+            <li class="fl"><a href="#">
+                <i></i>
+                <span>首页</span> 
+            </a></li>
+            <li class="fl"><a href="#">
+                <i></i>
+                <span>排行</span>
+            </a></li>
+            <li class="fl"><a href="#">
+                <i></i>
+                <span>作者</span>
+            </a></li>
+            <li class="fl"><a href="#">
+                <i></i>
+                <span>活动</span>
+            </a></li>
+        </ul>
+        <ul class="title_right fr">
+             <li class="fl">
+                <input type="text" placeholder="搜索">
+                <a href="#" class="click"></a>
+            </li>
+            <li class="title_notice fl"><a href="#"></a></li>
+            <li class="title_person fl"><a href="login.html" target="_blank"></a></li>
+            <div class="title_send fl">
+                <ul>
+                    <li><i></i><span>投稿</span></li>
+                    <li><a href="#"><i></i><span>画作</span></a></li>
+                    <li><a href="#"><i></i><span>COS</span></a></li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+    <!-- 导航结束 -->
+    <!-- 顶部宣传图 -->
+    <div class="slide_pic">
+        <a href="#"><img src="images/1.jpg" alt=""></a> 
+    </div>
+    <!-- 顶部宣传图结束 -->
+    <!-- 滚轮宣传区 -->
+    <div class="rollershow" id="rollershow">
+        <div id="rollershow_box">
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <div class="box_img"></div>
+            <!-- <p>测试平面</p> -->
+        </div>
+        <div class="left_aside" id="left_aside">
+            <div class="left_aside_top"></div>
+            <div class="left_aside_midium"></div>
+            <div class="left_aside_bottom"></div>
+        </div>
+        <div class="right_aside" id="right_aside">
+            <img src="images/slide/1.jpg" alt="">
+            <img src="images/slide/2.jpg" alt="">
+            <img src="images/slide/3.jpg" alt="">
+            <img src="images/slide/4.jpg" alt="">
+            <img src="images/slide/5.jpg" alt="">
+            <img src="images/slide/6.jpg" alt="">
+        </div>
+    </div>
+    <!-- 滚轮宣传区结束 -->
+    <!-- 展示区域 -->
+    <div class="show">
+        <div class="show_title">
+            <ul>
+                <li class="fl"><a href="#" onclick="return false"></a></li>
+                <li class="fl"><p>全部画作&COS</p></li>
+            </ul>
+            <ul>
+                <li class="fl tab_change title_style"><a href="#" onclick="return false"> <i></i><span>推荐</span></a></li>
+                <li class="fl tab_change"><a href="#" onclick="return false"> <i></i><span>最新</span></a></li>
+            </ul>
+        </div>
+        <!-- 主内容推荐栏第一区域展示 -->
+        <div class="show_content tab_main selected" id="show_content">
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(1).jpg" alt="">
+                    <p>作者：League of Legend Divine Sword Irelia Fanart</p>
+                    <p><span></span>123</p>
+                    <div class="user_name">
+                    </div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(2).jpg" alt="">
+                    <p>作者：LOL Caitlyn And Vi</p>
+                    <p><span></span>32</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(3).jpg" alt="">
+                    <p>作者：卡莎kaisa</p>
+                    <p><span></span>342</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(4).jpg" alt="">
+                    <p>作者：碎心之拳 蔚</p>
+                    <p><span></span>1523</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(5).jpg" alt="">
+                    <p>作者：Ghost Bride Morgana</p>
+                    <p><span></span>4665</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(6).jpg" alt="">
+                    <p>作者：Odyssey Jinx</p>
+                    <p><span></span>12</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(7).jpg" alt="">
+                    <p>作者：Halloween Ahri.nsfw optional.</p>
+                    <p><span></span>534</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(8).jpg" alt="">
+                    <p>作者：Riven | Awaken</p>
+                    <p><span></span>654</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(9).jpg" alt="">
+                    <p>作者：Tribeca Games: Music League </p>
+                    <p><span></span>666</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(10).jpg" alt="">
+                    <p>作者：Death Sworn Rakan</p>
+                    <p><span></span>52</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(11).jpg" alt="">
+                    <p>作者：Firecracker Vayne New Year</p>
+                    <p><span></span>6585</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(12).jpg" alt="">
+                    <p>作者：吃汤圆！！</p>
+                    <p><span></span>345</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(13).jpg" alt="">
+                    <p>作者：开运锦鲤-娜美☆</p>
+                    <p><span></span>776</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(14).jpg" alt="">
+                    <p>作者：猪妹春节抓猪仔啊</p>
+                    <p><span></span>685</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(15).jpg" alt="">
+                    <p>作者：LOL Caitlyn And Vi</p>
+                    <p><span></span>870</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(16).jpg" alt="">
+                    <p>作者：男枪女枪发红包</p>
+                    <p><span></span>435</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(17).jpg" alt="">
+                    <p>作者：Order Of The Lotus Karma</p>
+                    <p><span></span>7976</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(18).jpg" alt="">
+                    <p>作者：猪猪佐伊</p>
+                    <p><span></span>796</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(19).jpg" alt="">
+                    <p>作者：Xayah!</p>
+                    <p><span></span>234</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(20).jpg" alt="">
+                    <p>作者：Pentakill! \\m/</p>
+                    <p><span></span>25</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(21).jpg" alt="">
+                    <p>作者：装备了情人节的新年暴击</p>
+                    <p><span></span>47</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(22).jpg" alt="">
+                    <p>作者：aiwhihasfaf</p>
+                    <p><span></span>234</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(23).jpg" alt="">
+                    <p>作者：元宵福神——璐璐</p>
+                    <p><span></span>867</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(24).jpg" alt="">
+                    <p>作者：FanArt !! ZED VS YASUO</p>
+                    <p><span></span>2755</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(25).jpg" alt="">
+                    <p>作者：Order Of The Lotus Karma</p>
+                    <p><span></span>465</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(26).jpg" alt="">
+                    <p>作者：玉剑传说 艾希</p>
+                    <p><span></span>234</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(27).jpg" alt="">
+                    <p>作者：瑟庄妮金猪纳福</p>
+                    <p><span></span>57</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(28).jpg" alt="">
+                    <p>作者：至臻vn</p>
+                    <p><span></span>457</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(29).jpg" alt="">
+                    <p>作者：League of Legends Ahri</p>
+                    <p><span></span>568</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(30).jpg" alt="">
+                    <p>作者：年兽纳尔</p>
+                    <p><span></span>234</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img class="show_pic" src="images/create/create(31).jpg" alt="">
+                    <p>作者：金珠（猪）璐璐</p>
+                    <p><span></span>888</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 主内容最新栏第一区域展示 -->
+        <div class="show_content_news tab_main " id="show_content_news">
+            <div class="pic_news">
+                <div class="box_news">
+                    <img class="show_pic_news" src="images/recommend/recommend (1).jpg" alt="">
+                    <p>作者：League of Legend Divine Sword Irelia Fanart</p>
+                    <p><span></span>123</p>
+                    <div class="user_name">
+                    </div>
+                </div>
+            </div>
+            <div class="pic_news">
+                <div class="box_news">
+                    <img class="show_pic_news" src="images/recommend/recommend (2).jpg" alt="">
+                    <p>作者：LOL Caitlyn And Vi</p>
+                    <p><span></span>32</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic_news">
+                <div class="box_news">
+                    <img class="show_pic_news" src="images/recommend/recommend (3).jpg" alt="">
+                    <p>作者：卡莎kaisa</p>
+                    <p><span></span>342</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic_news">
+                <div class="box_news">
+                    <img class="show_pic_news" src="images/recommend/recommend (4).jpg" alt="">
+                    <p>作者：碎心之拳 蔚</p>
+                    <p><span></span>1523</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic_news">
+                <div class="box_news">
+                    <img class="show_pic_news" src="images/recommend/recommend (5).jpg" alt="">
+                    <p>作者：Ghost Bride Morgana</p>
+                    <p><span></span>4665</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic_news">
+                <div class="box_news">
+                    <img class="show_pic_news" src="images/recommend/recommend (6).jpg" alt="">
+                    <p>作者：Odyssey Jinx</p>
+                    <p><span></span>12</p>
+                    <div class="user_name"></div>
+                </div>
+            </div>
+            <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (7).jpg" alt="">
+                        <p>作者：Halloween Ahri.nsfw optional.</p>
+                        <p><span></span>534</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (8).jpg" alt="">
+                        <p>作者：Riven | Awaken</p>
+                        <p><span></span>654</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (9).jpg" alt="">
+                        <p>作者：Tribeca Games: Music League </p>
+                        <p><span></span>666</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (10).jpg" alt="">
+                        <p>作者：Death Sworn Rakan</p>
+                        <p><span></span>52</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (11).jpg" alt="">
+                        <p>作者：Firecracker Vayne New Year</p>
+                        <p><span></span>6585</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (12).jpg" alt="">
+                        <p>作者：吃汤圆！！</p>
+                        <p><span></span>345</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (13).jpg" alt="">
+                        <p>作者：开运锦鲤-娜美☆</p>
+                        <p><span></span>776</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (14).jpg" alt="">
+                        <p>作者：猪妹春节抓猪仔啊</p>
+                        <p><span></span>685</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (15).jpg" alt="">
+                        <p>作者：LOL Caitlyn And Vi</p>
+                        <p><span></span>870</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (16).jpg" alt="">
+                        <p>作者：男枪女枪发红包</p>
+                        <p><span></span>435</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (17).jpg" alt="">
+                        <p>作者：Order Of The Lotus Karma</p>
+                        <p><span></span>7976</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/recommend/recommend (18).jpg" alt="">
+                        <p>作者：猪猪佐伊</p>
+                        <p><span></span>796</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/create/create(19).jpg" alt="">
+                        <p>作者：Xayah!</p>
+                        <p><span></span>234</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>
+                <div class="pic_news">
+                    <div class="box_news">
+                        <img class="show_pic_news" src="images/create/create(20).jpg" alt="">
+                        <p>作者：Pentakill! \\m/</p>
+                        <p><span></span>25</p>
+                        <div class="user_name"></div>
+                    </div>
+                </div>_news
+        </div>
+    </div>
+    <!-- 展示区域结束 -->
+    <!-- 底部区域 -->
+    <div class="footer">
+        <div class="footer_left">
+            <ul>
+                <li class="fl"><a href="#"><img src="images/foot-light.png" alt=""></a></li>
+                <li class="fl"><img src="images/logo-riot.png" alt=""></li>
+                <li class="fl"><a href="#">
+                    <i></i>
+                    <p>掌上</p>
+                    <p>英雄联盟</p>
+                </a></li>
+                <li class="fl"><a href="#">
+                    <i></i>
+                    <p>英雄联盟</p>
+                    <p>同人微博</p>
+                </a></li>
+            </ul>
+        </div>
+        <div class="footer_right fl">
+            <p>腾讯互动娱乐|服务条款|腾讯游戏隐私保护指引|腾讯游戏招聘|腾讯游戏客服|游戏地图|商务合作|腾讯网|网站导航</p>
+            <p>用户协议 | 作品上传协议 | 腾讯公司版权所有</p>
+            <p>COPYRIGHT © 1998 - 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+            <p>粤网文[2017]6138-1456号|（总）网出证（粤）字第057号</p>
+        </div>
+        <div class="ele_navi">
+            <a href="#" id="ele_nav"><img src="images/btn-top.png" alt="">谢谢浏览</a> 
+        </div>
+    </div>
+    <!-- 底部区域结束 -->
+    <script src="js/rollershow.js"></script>
+</body>
+</html>
+
+
+
+
